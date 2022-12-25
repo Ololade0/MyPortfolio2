@@ -8,7 +8,7 @@
 	height: 200vh;
 	width: 100%;
 	background-color: #000;
-	/* background-image: url(../img/ololadee.JPG); */
+	/* background-image: url(../img/navy\ blue.jpg); */
 	background-size: cover;
 	background-position: center;
 }
@@ -52,7 +52,7 @@ nav ul li a:hover{
 	font-weight: bold;
 	padding: 10px 25px;
 	border-radius: 30px;
-	transition: transform .4s; 
+	transition: transform .4s;
 }
 .btn:hover{
 	transform: scale(1.2);
@@ -102,7 +102,7 @@ h4{
 	color: white;
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
-	right: 6px; 
+	right: 6px;
 }
 
 .about{
@@ -153,7 +153,7 @@ button{
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: .4s;
 }
 button:hover{
 	background-color: transparent;
@@ -167,12 +167,15 @@ button:hover{
 	padding: 100px 0px;
 }
 .title h2{
-	color: white;
+		color: white;
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
+
 }
+
+
 .box{
 	display: flex;
 	justify-content: center;
@@ -217,7 +220,7 @@ h5{
 	font-weight: bold;
 	padding: 9px 22px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: .4s;
 }
 .card .button:hover{
 	background-color: transparent;
@@ -247,7 +250,7 @@ h5{
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: .4s;
 }
 .contact-me .button-two:hover{
 	background-color: transparent;
@@ -301,5 +304,33 @@ footer p:nth-child(2){
 	position: absolute;
 	color:#f9004d;
 	bottom: 35px;
-	font-size: 14px; 
+	font-size: 14px;
+}
+
+.skills__name{
+	font-size: large;
+	color: #f9004d;
+	bottom: 90px;
+	justify-content : center;
+	row-gap: rem;
+	position: relative;
+	top: 700%;
+	left:8%;
+	transform: translateY(-50%);
+
+}
+
+
+ .boxes{
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	min-height: px;
+}
+
+
+.services{
+	background: black;
+	width: 100%;
+	padding: 100px 0px;
 }
